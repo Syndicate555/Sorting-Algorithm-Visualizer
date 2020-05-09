@@ -5,7 +5,15 @@
 body {
   background-color: #000000;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+
+.h1 {
+}
+
 h1 {
   text-align: center;
   padding: 25px 30px;
@@ -15,12 +23,12 @@ h1 {
   letter-spacing: 4px;
   overflow: hidden;
 }
-h1 span {
+.h1 span {
   position: absolute;
   display: block;
 }
 
-h1 span:nth-child(1) {
+.h1 span:nth-child(1) {
   top: 0;
   left: -100%;
   width: 100%;
@@ -38,7 +46,7 @@ h1 span:nth-child(1) {
     left: 100%;
   }
 }
-h1 span:nth-child(2) {
+.h1 span:nth-child(2) {
   top: -100%;
   right: 0;
   width: 2px;
@@ -57,7 +65,7 @@ h1 span:nth-child(2) {
     top: 100%;
   }
 }
-h1 span:nth-child(3) {
+.h1 span:nth-child(3) {
   bottom: 0;
   right: -100%;
   width: 100%;
