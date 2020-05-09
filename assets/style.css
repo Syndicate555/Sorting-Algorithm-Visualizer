@@ -169,9 +169,10 @@ input.slider {
 }
 .rate-value {
   float: right;
-  width: 5%;
+  width: 1%;
   line-height: 0.5;
   padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 select {
