@@ -48,6 +48,7 @@ sliderElement.addEventListener("input", (e) => {
 
 arraySizeSliderElement.addEventListener("input", (e) => {
   ARRAY_SIZE = e.target.value;
+  rateValue.textContent = e.target.value;
   genArray();
 });
 
