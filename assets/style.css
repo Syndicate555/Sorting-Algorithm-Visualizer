@@ -161,6 +161,7 @@ input.slider {
 .btn-secondary {
   background-color: #c32828;
   color: #fff;
+  font-size: large;
   box-shadow: 0px 5px 13px 0px #e4562b8c;
 }
 .btn-rounded {
