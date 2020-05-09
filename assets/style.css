@@ -142,12 +142,13 @@ input.slider {
 .btn {
   position: relative;
   display: inline-block;
-  padding: 25px, 30px;
+  padding: 45px, 30px;
   border-radius: 10px;
-  color: #000000;
+  color: #ececec;
   cursor: pointer;
   font-size: large;
   text-decoration: none;
+  background-color: transparent;
   transition: 0.5s;
 }
 .btn:hover {
