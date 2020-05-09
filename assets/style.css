@@ -193,7 +193,7 @@ input.slider {
 .rate-value {
   float: right;
   width: 5%;
-  height: fit-content;
+  height: 80%;
   font-size: 20px;
   line-height: 0.3;
   padding-right: 10px;
