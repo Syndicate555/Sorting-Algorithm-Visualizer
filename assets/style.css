@@ -5,13 +5,13 @@
 body {
   background-color: #000000;
   color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 .h1 {
+  position: relative;
+  padding: 25px 30px;
+  margin: 40px 0;
+  text-align: center;
 }
 
 h1 {
