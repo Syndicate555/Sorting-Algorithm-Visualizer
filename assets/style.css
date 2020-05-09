@@ -148,6 +148,7 @@ input.slider {
 .btn-primary {
   background-color: #3568d4;
   color: #fff;
+  font-size: large;
   box-shadow: 0px 5px 13px 0px #1f58d18c;
 }
 .btn-primary-outline {
