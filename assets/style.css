@@ -13,6 +13,7 @@ h1 {
   color: #9ebce9;
   font-size: 50px;
   letter-spacing: 4px;
+  overflow: hidden;
 }
 h1 span {
   position: absolute;
@@ -26,6 +27,9 @@ h1 span:nth-child(1) {
   height: 2px;
   background: linear-gradient(90deg, transparent, #03e9f4);
   animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
 }
 
 .page-wrapper {
