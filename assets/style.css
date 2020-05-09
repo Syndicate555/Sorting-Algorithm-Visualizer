@@ -144,9 +144,11 @@ input.slider {
   display: inline-block;
   padding: 25px, 30px;
   border-radius: 10px;
-  color: #03e9f4;
+  color: #000000;
   cursor: pointer;
   font-size: large;
+  text-decoration: none;
+  transition: 0.5s;
 }
 .btn:hover {
   background: rgb(139, 139, 185);
@@ -154,24 +156,17 @@ input.slider {
   box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
     0 0 200px #03e9f4;
 }
-/* .btn-primary {
+.btn-primary {
   background-color: #3568d4;
   color: #03e9f4;
   font-size: large;
   box-shadow: 0px 5px 13px 0px #1f58d18c;
-} */
+}
 .btn span {
   position: absolute;
   display: block;
 }
 
-.btn span:nth-child(1) {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, #03e9f4);
-}
 /* .btn-primary-outline {
   border: 1px solid #3568d4;
   color: #fff;
