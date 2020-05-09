@@ -183,7 +183,3 @@ sortingAlgorithms.onchange = () => {
   // genArray();
   sort();
 };
-
-rate.onchange = function () {
-  rateValue.textContent = rate.value;
-};
