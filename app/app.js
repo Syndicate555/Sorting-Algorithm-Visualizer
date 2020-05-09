@@ -35,7 +35,7 @@ const {
 ]);
 
 var ANIMATION_SPEED = 1;
-var ARRAY_SIZE = 5;
+var ARRAY_SIZE = 50;
 // var WIDTH = window.visualViewport.width;
 
 let interval;
