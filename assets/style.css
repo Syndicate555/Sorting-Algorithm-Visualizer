@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: center;
   flex-grow: 1;
-  padding-top: 20px;
+  padding-top: 50px;
   width: 100%;
 }
 
@@ -57,7 +57,7 @@ input.slider {
   color: #fff;
   display: inline-block;
   font: normal normal normal 24px/1 "Material Design Icons";
-  font-size: inherit;
+  font-size: 100px;
   text-rendering: auto;
   line-height: inherit;
   -webkit-font-smoothing: antialiased;
