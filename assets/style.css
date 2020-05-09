@@ -53,7 +53,7 @@ input.slider {
   position: absolute;
   top: -24px;
   left: -2px;
-
+  color: #fff;
   display: inline-block;
   font: normal normal normal 24px/1 "Material Design Icons";
   font-size: inherit;
