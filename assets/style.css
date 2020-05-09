@@ -4,7 +4,7 @@
 
 body {
   background-color: #000000;
-  color: #fff;
+  color: rgb(218, 55, 55);
 }
 
 .page-wrapper {
@@ -140,8 +140,11 @@ input.slider {
 }
 
 .btn {
-  padding: 10px;
+  position: relative;
+  display: inline-block;
+  padding: 25px, 30px;
   border-radius: 10px;
+  color: #03e9f4;
   cursor: pointer;
   font-size: large;
 }
@@ -151,12 +154,12 @@ input.slider {
   box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
     0 0 200px #03e9f4;
 }
-.btn-primary {
+/* .btn-primary {
   background-color: #3568d4;
   color: #03e9f4;
   font-size: large;
   box-shadow: 0px 5px 13px 0px #1f58d18c;
-}
+} */
 .btn span {
   position: absolute;
   display: block;
