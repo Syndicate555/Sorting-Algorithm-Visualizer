@@ -10,8 +10,8 @@ h1 {
   text-align: center;
   padding: 25px 30px;
   margin: 40px 0;
-  color: #03e9f4;
-  font-size: xx-large;
+  color: #9ebce9;
+  font-size: 50px;
 }
 
 .page-wrapper {
@@ -193,6 +193,7 @@ input.slider {
 .rate-value {
   float: right;
   width: 5%;
+  font-size: 20px;
   line-height: 0.3;
   padding-right: 10px;
   padding-bottom: 10px;
