@@ -146,6 +146,11 @@ input.slider {
   cursor: pointer;
   font-size: large;
 }
+.btn:hover {
+  background: blue;
+  color: blue;
+  box-shadow: 0 0 5px #03e9f4;
+}
 .btn-primary {
   background-color: #3568d4;
   color: #fff;
