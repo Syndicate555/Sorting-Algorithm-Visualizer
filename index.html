@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sort Visualizer</title>
+
+    <link
+      rel="stylesheet"
+      href="https://materialdesignicons.com/cdn/5.1.45/css/materialdesignicons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Jura:300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <!-- <script src="sorting-algorithms.js"></script> -->
+    <script>
+      function loadDoc() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+          if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("demo").innerHTML = this.responseText;
+          }
+        };
+        xhttp.open("GET", "https://www.w3schools.com/js/ajax_info.txt", true);
+        xhttp.send();
+      }
+    </script>
+    <script type="module" src="app/app.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <h1 style="text-align: center;">Universal Sorting Visualizer</h1>
+      <div class="page-wrapper">
+        <div class="toolbar toolbar-top">
+          <button id="generateArrayBtn" class="btn btn-primary-outline">
+            Generate Random Array
+          </button>
+
+          <!-- Array Size -->
+          <div class="slider-container">
+            <label for="arraySizeSliderElement" style="text-align: center;"
+              >Select Array size</label
+            >
+            <input
+              type="range"
+              min="4"
+              max="200"
+              value="150"
+              class="slider"
+              id="arraySizeSliderElement"
+            />
+          </div>
+
+          <!-- Animation SPeed -->
+          <div class="slider-container animation-speed">
+            <label for="animationSpeedSliderElement">Animation Speed</label>
+            <div>
+              <span>Fast</span>
+              <input
+                type="range"
+                min="1"
+                max="500"
+                value="1"
+                class="slider"
+                id="animationSpeedSliderElement"
+              />
+              <span>Slow</span>
+            </div>
+          </div>
+
+          <!-- Sorting Algorithm -->
+          <br />
+          <br />
+          <label for="arraySizeSliderElement">Select Sorting Algorithm:</label>
+          <select name="sorting-algorithms" id="sortingAlgorithms">
+            <option value="mergeSort" selected>Merge Sort</option>
+            <option value="quickSort">Quick Sort</option>
+          </select>
+        </div>
+
+        <div id="barsElement"></div>
+
+        <div class="bottom">
+          <div class="slider-container">
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value="0"
+              class="slider"
+              id="sliderElement"
+            />
+          </div>
+
+          <div class="toolbar toolbar-bottom">
+            <button
+              id="toggleAnimationBtn"
+              class="btn btn-primary btn-rounded"
+              title="Play / Pause"
+            >
+              <i class="mdi mdi-play"></i>
+            </button>
+            <button
+              id="stopAnimationBtn"
+              class="btn btn-rounded btn-secondary"
+              title="Stop"
+            >
+              <i class="mdi mdi-stop"></i>
+            </button>
+            <!-- <button onclick="pauseAnimation()">Pause</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
