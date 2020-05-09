@@ -162,6 +162,9 @@ input.slider {
   position: absolute;
   display: block;
 }
+
+.btn span:nth-child(1) {
+}
 /* .btn-primary-outline {
   border: 1px solid #3568d4;
   color: #fff;
