@@ -171,7 +171,7 @@ input.slider {
   float: right;
   width: 5%;
   line-height: 0.5;
-  padding-right: 10px;
+  padding-right: 100px;
 }
 
 select {
