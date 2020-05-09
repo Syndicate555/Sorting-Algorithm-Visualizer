@@ -13,6 +13,7 @@ function getElements(elements) {
 
 var barsData = [];
 var barsDataCopy = [];
+var rateValue = document.querySelector(".rate-value");
 
 const {
   barsElement,
