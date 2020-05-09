@@ -34,8 +34,8 @@ h1 {
   width: 100%;
   height: 2px;
   background: linear-gradient(90deg, transparent, #03e9f4);
-  animation: animate1 5s linear infinite;
-  animation-delay: 0.25s;
+  animation: animate1 8s linear infinite;
+  animation-delay: 0.1ms;
 }
 
 @keyframes animate1 {
@@ -54,8 +54,7 @@ h1 {
   width: 100%;
   height: 2px;
   background: linear-gradient(270deg, transparent, #03e9f4);
-  animation: animate3 5s linear infinite;
-  animation-delay: 0.25s;
+  animation: animate3 8s linear infinite;
 }
 
 @keyframes animate3 {
